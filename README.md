@@ -103,7 +103,9 @@ http://localhost:8000/docs
 
 From the BlogPulse AI repository root:
 cd frontend
+
 npm install
+
 npm run dev
 
 The frontend will be available at:
@@ -115,7 +117,9 @@ http://localhost:5173
 Create a `.env` file in the backend directory:
 
 LANGFLOW_URL=http://127.0.0.1:7860
+
 LANGFLOW_FLOW_ID=YOUR_FLOW_ID
+
 LANGFLOW_API_KEY=YOUR_API_KEY
 
 
